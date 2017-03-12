@@ -16,14 +16,6 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object btn1: TsButton
-    Left = 616
-    Top = 176
-    Width = 75
-    Height = 25
-    Caption = 'btn1'
-    TabOrder = 0
-  end
   object sknmngr1: TsSkinManager
     InternalSkins = <
       item
@@ -1821,22 +1813,5 @@ object Form1: TForm1
         Caption = 'Logout'
       end
     end
-  end
-  object rstclnt1: TRESTClient
-    BaseURL = 'http://oauth.yandex.ru'
-    ContentType = 'application/x-www-form-urlencoded'
-    Params = <
-      item
-        name = 'grant_type'
-        Value = 'authorization_code'
-      end
-      item
-        name = 'code'
-        Value = '3612440'
-      end>
-    HandleRedirects = False
-    UserAgent = '/token HTTP/1.1'
-    Left = 512
-    Top = 320
   end
 end

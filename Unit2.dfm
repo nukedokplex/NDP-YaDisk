@@ -22,6 +22,7 @@ object Form2: TForm2
     Height = 611
     Align = alClient
     TabOrder = 0
+    OnNavigateComplete2 = swbrwsr1NavigateComplete2
     ExplicitLeft = 160
     ExplicitTop = 48
     ExplicitWidth = 300
@@ -46,5 +47,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 1
+    Text = 'edt1'
   end
 end
